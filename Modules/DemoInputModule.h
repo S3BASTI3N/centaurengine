@@ -2,8 +2,7 @@
 // Created by sebastien on 3-2-16.
 //
 
-#ifndef CENTAURENGINE_DEMOINPUTMODULE_H
-#define CENTAURENGINE_DEMOINPUTMODULE_H
+#pragma once
 
 
 #include <map>
@@ -26,5 +25,3 @@ private:
 
     void walk(Context context);
 };
-
-#endif //CENTAURENGINE_DEMOINPUTMODULE_H

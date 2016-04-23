@@ -2,8 +2,7 @@
 // Created by sebastien on 23-1-16.
 //
 
-#ifndef CENTAURENGINE_CONSIDERATION_H
-#define CENTAURENGINE_CONSIDERATION_H
+#pragma once
 
 #include <iostream>
 #include <string>
@@ -35,6 +34,3 @@ private:
 
 
 };
-
-
-#endif //CENTAURENGINE_CONSIDERATION_H

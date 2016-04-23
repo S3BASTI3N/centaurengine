@@ -2,8 +2,7 @@
 // Created by sebastien on 3-2-16.
 //
 
-#ifndef CENTAURENGINE_MODULEINTERFACE_H
-#define CENTAURENGINE_MODULEINTERFACE_H
+#pragma once
 
 #include <string>
 #include <map>
@@ -21,6 +20,3 @@ public:
     virtual void execute(std::string functionName, Context context )=0;
 
 };
-
-
-#endif //CENTAURENGINE_MODULEINTERFACE_H

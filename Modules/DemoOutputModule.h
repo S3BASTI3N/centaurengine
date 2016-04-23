@@ -2,8 +2,7 @@
 // Created by sebastien on 3-2-16.
 //
 
-#ifndef CENTAURENGINE_DEMOOUTPUTMODULE_H
-#define CENTAURENGINE_DEMOOUTPUTMODULE_H
+#pragma once
 
 #include "../Include/ModuleInterface.h"
 
@@ -19,6 +18,3 @@ class DemoOutputModule : public ModuleInterface {
 
     float score(std::string functionName, Context context);
 };
-
-
-#endif //CENTAURENGINE_DEMOOUTPUTMODULE_H

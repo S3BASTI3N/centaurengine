@@ -2,8 +2,7 @@
 // Created by sebastien on 23-1-16.
 //
 
-#ifndef CENTAURENGINE_INTELLIGENCE_H
-#define CENTAURENGINE_INTELLIGENCE_H
+#pragma once
 
 
 #include <vector>
@@ -32,6 +31,3 @@ private:
 
     DemoInputModule modules;
 };
-
-
-#endif //CENTAURENGINE_INTELLIGENCE_H

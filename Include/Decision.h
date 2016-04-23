@@ -2,8 +2,7 @@
 // Created by sebastien on 23-1-16.
 //
 
-#ifndef CENTAURENGINE_ACTION_H
-#define CENTAURENGINE_ACTION_H
+#pragma once
 
 #include <vector>
 #include <string>
@@ -46,6 +45,3 @@ private:
     std::string description;
 
 };
-
-
-#endif //CENTAURENGINE_ACTION_H

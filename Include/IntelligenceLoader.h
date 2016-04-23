@@ -2,8 +2,7 @@
 // Created by sebastien on 3-2-16.
 //
 
-#ifndef CENTAURENGINE_INTELLIGENCELOADER_H
-#define CENTAURENGINE_INTELLIGENCELOADER_H
+#pragma once
 
 #include <iostream>
 #include <vector>
@@ -39,6 +38,3 @@ private:
     std::map<std::string, DemoInputModule> getScriptMap(std::vector<std::string> modules,
                                               std::vector<std::shared_ptr<ModuleInterface>> *loadedModules);
 };
-
-
-#endif //CENTAURENGINE_INTELLIGENCELOADER_H
